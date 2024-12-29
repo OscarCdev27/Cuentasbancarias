@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-image: url("https://img.freepik.com/foto-gratis/5g-enunciados-tarjetas-sim_23-2148291128.jpg?t=st=1735502484~exp=1735506084~hmac=89388a4bfa9b02e8ca0bd89b0cb1e9695cc33e0eeed2737972c45b6ea48ce896&w=1060")
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+    margin-top: 20px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.display div {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.content {
+    display: none;
+}
+
+.content-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
